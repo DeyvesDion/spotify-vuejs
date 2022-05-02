@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
     <div>
-        <h1>Premium</h1>
+        <h1>Page Premium</h1>
     </div>
 </template>
 

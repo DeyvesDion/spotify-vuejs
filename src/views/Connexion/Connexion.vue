@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
     <div>
-        <h1>Connexion</h1>
+        <h1>Page Connexion</h1>
     </div>
 </template>
 

@@ -19,3 +19,4 @@ export default {
     <router-view />
     <Footer />
 </template>
+<style src="./reset.css"></style>

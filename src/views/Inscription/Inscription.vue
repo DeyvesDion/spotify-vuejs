@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
     <div>
-        <h1>Inscription</h1>
+        <h1>Page Inscription</h1>
     </div>
 </template>
 

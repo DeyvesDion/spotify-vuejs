@@ -7,7 +7,7 @@ export default {
 </script>
 <template>
     <div>
-        <h1>Téléchargement</h1>
+        <h1>Page de Téléchargement</h1>
     </div>
 </template>
 

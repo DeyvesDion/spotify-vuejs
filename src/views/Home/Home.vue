@@ -6,7 +6,7 @@ export default {
 };
 </script>
 <template>
-    <div><h1>Home l</h1></div>
+    <div><h1>Page d'accueil</h1></div>
 </template>
 
 <style lang="scss" scoped></style>
