@@ -4,7 +4,6 @@
 
 .container .hero {
     background-color: rgb(153, 51, 153);
-
 }
 
 .hero .heroContainer {
@@ -30,7 +29,6 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
-
 }
 
 .heroContainer .heroTxt .title h1 {
@@ -80,4 +78,52 @@
     height: 400px;
     width: 404px;
     background-image: url("..//..//assets/hero.jpg")
+}
+
+@media screen and (max-width: 700px) {
+    .container .hero {
+        height: auto;
+    }
+
+    .hero .heroContainer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .heroContainer .heroTxt .title h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .heroContainer .heroTxt .premium h3 {
+        font-size: 12px;
+        margin-left: 130px;
+        margin-bottom: 15px;
+    }
+
+    .heroContainer .heroTxt .description h2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .hero .heroContainer .heroTxt {
+        padding-top: 50px;
+        height: 100%;
+    }
+
+    .heroContainer .heroTxt .btnArrea .btn {
+        padding: 14px 80px;
+        margin-bottom: 20px;
+    }
+
+    .hero .heroImg {
+        height: 400px;
+        width: 370px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
 }
