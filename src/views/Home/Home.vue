@@ -1,12 +1,16 @@
 <script>
+import Hero from "..//..//components/Hero/Hero.vue";
 export default {
     setup() {
         return {};
     },
+    components: {
+        Hero,
+    },
 };
 </script>
 <template>
-    <div><h1>Page d'accueil</h1></div>
+    <div><Hero /></div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped></style>

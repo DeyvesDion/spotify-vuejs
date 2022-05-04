@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+}
+
+.container .hero {
+    background-color: rgb(153, 51, 153);
+
+}
+
+.hero .heroContainer {
+    height: 110vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .heroContainer .heroTxt {
+    height: 73%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.heroContainer .heroTxt .premium h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+
+.heroContainer .heroTxt .title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.heroContainer .heroTxt .description h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.heroContainer .heroTxt .btnArrea .btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 500px;
+    color: #fff;
+    background-color: #000;
+    padding: 14px 32px;
+}
+
+.heroContainer .heroTxt .btnArrea .btn:hover {
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+
+.heroContainer .heroTxt .cgv a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.heroContainer .heroTxt .cgv p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.hero .heroImg {
+    height: 400px;
+    width: 404px;
+    background-image: url("..//..//assets/hero.jpg")
+}

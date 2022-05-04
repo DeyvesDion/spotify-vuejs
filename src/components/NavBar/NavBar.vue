@@ -41,7 +41,7 @@ export default {
                                 to="/telechargement"
                                 class="navLink"
                                 onclick="toggleMenu()"
-                                >Telechargement</router-link
+                                >Téléchargement</router-link
                             >
                         </li>
                         <span>|</span>
