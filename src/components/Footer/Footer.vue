@@ -61,11 +61,14 @@ export default {
                 </div>
             </div>
             <div class="footerBottom">
-                <h3>Légal</h3>
-                <h3>Centre de confidentialité</h3>
-                <h3>Protection des données</h3>
-                <h3>Paramètres des cookies</h3>
-                <h3>À propos des pubs</h3>
+                <div class="link">
+                    <h3>Légal</h3>
+                    <h3>Centre de confidentialité</h3>
+                    <h3>Protection des données</h3>
+                    <h3>Paramètres des cookies</h3>
+                    <h3>À propos des pubs</h3>
+                </div>
+                <div class="copy">© 2022 Spotify AB</div>
             </div>
         </div>
     </div>
