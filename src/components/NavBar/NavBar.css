@@ -40,3 +40,61 @@ header nav ul a {
 header nav ul a:hover {
     color: #1ed760;
 }
+
+@media screen and (max-width: 700px) {
+
+    /************ header *************/
+    header {
+        height: 57px;
+        justify-content: space-between;
+    }
+
+    header .logoSection img {
+        width: 90px;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 56px;
+        height: 100vh;
+        left: 100%;
+        padding: 10px 50px;
+        text-align: left;
+        background: #000;
+        z-index: 999;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background-image: url("..//..//assets/menu.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+
+    .toggle.active {
+        background-image: url("..//..//assets/close.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 23px;
+        cursor: pointer;
+    }
+
+    header nav ul a {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    header nav ul li {
+        margin: 30px 0px;
+    }
+
+}

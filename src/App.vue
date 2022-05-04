@@ -15,8 +15,8 @@ export default {
 <template>
     <div>
         <NavBar />
+        <router-view />
+        <Footer />
     </div>
-    <router-view />
-    <Footer />
 </template>
 <style src="./reset.css"></style>

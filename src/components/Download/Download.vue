@@ -16,7 +16,7 @@
                 </div>
                 <div class="btnArrea">
                     <button type="button" class="btn">
-                        Télécharher Spotify free
+                        Télécharger Spotify free
                     </button>
                 </div>
             </div>
