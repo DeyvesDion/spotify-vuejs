@@ -29,7 +29,7 @@
                             <p>
                                 Abonnement Personnel uniquement. 9,99 €/mois
                                 ensuite.
-                                <a href="http://">
+                                <a href="#">
                                     Offre soumise à nos Conditions générales.
                                     Réservée<br
                                 /></a>
