@@ -56,3 +56,45 @@
     -ms-transform: scale(1.04);
     -o-transform: scale(1.04);
 }
+
+/* Media */
+
+@media only screen and (min-width: 766px) and (max-width: 1024px) {
+
+    /* @media screen and (max-width: 700px)  */
+
+
+    .download {
+        background-image: url("..//..//assets/lie_circles-tablet.svg");
+        background-position: center center;
+        background-size: auto 181%;
+        background-repeat: no-repeat;
+    }
+
+    .download {
+        height: 50vh;
+    }
+
+    .download .container {
+        align-items: center;
+    }
+
+    .download .container .free h3 {
+        font-size: 12px;
+    }
+
+    .download .container .title h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72px;
+    }
+
+    .download .container .description h2 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+
+
+}
