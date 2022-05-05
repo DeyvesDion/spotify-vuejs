@@ -117,6 +117,10 @@
         margin-bottom: 25px;
     }
 
+    .heroContainer .heroTxt .description h2 br {
+        display: none;
+    }
+
     .hero .heroContainer .heroTxt {
         padding-top: 50px;
         height: 100%;

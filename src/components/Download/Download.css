@@ -72,11 +72,13 @@
     }
 
     .download {
-        height: 50vh;
+        height: 100vh;
     }
 
     .download .container {
         align-items: center;
+        height: 65vh;
+        justify-content: space-around;
     }
 
     .download .container .free h3 {
@@ -95,6 +97,9 @@
         line-height: 36px;
     }
 
+    .download .container .description h2 br {
+        display: none;
+    }
 
 
 }
