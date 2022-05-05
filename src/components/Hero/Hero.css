@@ -21,7 +21,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    /* align-items: start; */
     justify-content: space-between;
 }
 
@@ -83,10 +83,8 @@
 
 /* Media */
 
-@media only screen and (min-width: 766px) and (max-width: 1024px)
+@media only screen and (min-width: 765px) and (max-width: 1024px) {
 
-/* @media screen and (max-width: 700px)  */
-    {
     .container .hero {
         height: auto;
     }
@@ -106,7 +104,7 @@
 
     .heroContainer .heroTxt .premium h3 {
         font-size: 12px;
-        margin-left: 130px;
+        margin-left: 37vw;
         margin-bottom: 15px;
     }
 
@@ -143,4 +141,106 @@
         margin-top: 40px;
         margin-bottom: 35px;
     }
+}
+
+@media only screen and (min-width: 150px) and (max-width: 765px) {
+
+    .container .hero {
+        height: 140vh;
+    }
+
+    .hero .heroContainer {
+        flex-direction: column;
+        width: 95%;
+        height: 126vh;
+    }
+
+    .heroContainer .heroTxt .premium {
+        text-align: center;
+    }
+
+    .heroContainer .heroTxt .premium h3 {
+        /* text-align: center !important; */
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .heroContainer .heroTxt .title h1 {
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+
+    .heroContainer .heroTxt .title h1 br {
+        display: none;
+    }
+
+    .heroContainer .heroTxt .description h2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+
+    .heroContainer .heroTxt .description h2 br {
+        display: none;
+    }
+
+    .hero .heroContainer .heroTxt {
+        height: 100%;
+        padding-top: 50px;
+        align-items: justify;
+        justify-content: space-around;
+    }
+
+    .hero .img {
+        height: 320px;
+        width: 320px;
+    }
+
+    .heroContainer .heroTxt .btnArrea .btn {
+        width: 100%;
+        padding: 12px 32px;
+    }
+
+
+    /* 
+
+
+
+
+
+
+.heroContainer .heroTxt .description h2 br {
+    display: none;
+}
+
+.hero .heroContainer .heroTxt {
+    padding-top: 50px;
+    height: 100%;
+}
+
+.heroContainer .heroTxt .btnArrea .btn {
+    padding: 14px 32px;
+    margin-bottom: 20px;
+}
+
+.hero .heroImg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .img {
+    margin-top: 40px;
+    margin-bottom: 35px;
+} */
+
+
+
+
 }

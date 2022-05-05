@@ -59,7 +59,7 @@
 
 /* Media */
 
-@media only screen and (min-width: 766px) and (max-width: 1024px) {
+@media only screen and (min-width: 765px) and (max-width: 1024px) {
 
     /* @media screen and (max-width: 700px)  */
 
@@ -95,6 +95,56 @@
         font-size: 22px;
         font-weight: 500;
         line-height: 36px;
+    }
+
+    .download .container .description h2 br {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 765px) {
+
+    /* @media screen and (max-width: 700px)  */
+
+
+    .download {
+        background-image: url("..//..//assets/28_lie_circles-mobile.svg");
+        background-position: center center;
+        background-size: auto 181%;
+        background-repeat: no-repeat;
+    }
+
+    .download {
+        height: 70vh;
+    }
+
+    .download .container {
+        align-items: center;
+        height: 52vh;
+        justify-content: space-around;
+    }
+
+    .download .container .free h3 {
+        font-size: 11px;
+    }
+
+    .download .container .title h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+
+    .download .container .title h1 br {
+        display: none;
+    }
+
+    .download .container .description h2 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
     }
 
     .download .container .description h2 br {

@@ -41,7 +41,7 @@ header nav ul a:hover {
     color: #1ed760;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 992px) {
 
     /************ header *************/
     header {
