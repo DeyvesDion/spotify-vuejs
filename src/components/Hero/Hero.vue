@@ -39,7 +39,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="heroImg"></div>
+
+                    <div class="heroImg">
+                        <div class="img"></div>
+                    </div>
                 </div>
             </div>
         </div>

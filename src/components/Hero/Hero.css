@@ -74,13 +74,19 @@
     line-height: 16px;
 }
 
-.hero .heroImg {
+.hero .img {
     height: 400px;
     width: 404px;
     background-image: url("..//..//assets/hero.jpg")
 }
 
-@media screen and (max-width: 700px) {
+
+/* Media */
+
+@media only screen and (min-width: 766px) and (max-width: 1024px)
+
+/* @media screen and (max-width: 700px)  */
+    {
     .container .hero {
         height: auto;
     }
@@ -88,12 +94,13 @@
     .hero .heroContainer {
         height: auto;
         flex-direction: column;
+        align-items: start;
     }
 
     .heroContainer .heroTxt .title h1 {
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 36px;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72px;
         margin-bottom: 15px;
     }
 
@@ -104,9 +111,9 @@
     }
 
     .heroContainer .heroTxt .description h2 {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 36px;
         margin-bottom: 25px;
     }
 
@@ -116,13 +123,19 @@
     }
 
     .heroContainer .heroTxt .btnArrea .btn {
-        padding: 14px 80px;
+        padding: 14px 32px;
         margin-bottom: 20px;
     }
 
     .hero .heroImg {
-        height: 400px;
-        width: 370px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .img {
         margin-top: 40px;
         margin-bottom: 35px;
     }
