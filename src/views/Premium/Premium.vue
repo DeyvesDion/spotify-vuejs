@@ -1,13 +1,18 @@
 <script>
+import Hero from "..//..//components/Premium/Hero/Hero.vue";
 export default {
     setup() {
         return {};
+    },
+    components: {
+        Hero,
+        // Download,
     },
 };
 </script>
 <template>
     <div>
-        <h1>Page Premium</h1>
+        <Hero />
     </div>
 </template>
 
