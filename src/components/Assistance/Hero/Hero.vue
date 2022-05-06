@@ -1,18 +1,13 @@
 <script>
-import Hero from "..//..//components/Assistance/Hero/Hero.vue";
 export default {
     setup() {
         return {};
-    },
-    components: {
-        Hero,
-        // Download,
     },
 };
 </script>
 <template>
     <div>
-        <Hero />
+        <h1>page ass</h1>
     </div>
 </template>
 
